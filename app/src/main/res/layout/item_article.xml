@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f8f8f8"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp">
+
+            <ImageView
+                android:id="@+id/iv_article_cover"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/iv_article_head_img"
+                android:layout_width="@dimen/head_img_size"
+                android:layout_height="@dimen/head_img_size"
+                android:layout_gravity="center_horizontal|bottom"
+                android:src="@mipmap/ic_launcher" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_article_views"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@mipmap/liulan_5"
+                android:drawablePadding="@dimen/item_article_margin"
+                android:gravity="center"
+                android:text="222"
+                android:textColor="@color/deep_gray"
+                android:textSize="@dimen/item_text_size" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:text="GeeKWz"
+                android:textColor="@color/deep_gray"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_article_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:drawableLeft="@mipmap/xihuan_4"
+                android:drawablePadding="@dimen/item_article_margin"
+                android:gravity="center"
+                android:text="111"
+                android:textColor="@color/deep_gray"
+                android:textSize="@dimen/item_text_size" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_article_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="一辈子太长，我只争朝夕。"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_article_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:gravity="center|left"
+                android:lineSpacingExtra="2dp"
+                android:lineSpacingMultiplier="1.2"
+                android:maxLines="3"
+                android:padding="@dimen/item_article_margin"
+                android:text="一直觉得生活中不是只有爱情，亲情、友情、事业一样重要，所以不用问我男主是谁，因为不论男主是谁，女主都会活的很好，就如同我对你们希望的一样，不论生活中来了谁，走了谁，最终我们都能、都会生活的幸福安康。"
+                android:textColor="@color/deep_gray"
+                android:textSize="@dimen/item_text_size" />
+
+            <TextView
+                android:id="@+id/tv_article_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/item_article_margin"
+                android:text="1h ago"
+                android:textColor="@color/deep_gray"
+                android:textSize="@dimen/item_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

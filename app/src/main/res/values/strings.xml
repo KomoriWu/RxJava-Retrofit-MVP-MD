@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RxJava-Retrofit-MVP-MD</string>
+    <string name="tv_author">KomoriWu</string>
+    <string name="home_page">首页</string>
+    <string name="community">微社区</string>
+    <string name="instructions">说明</string>
+    <string name="about_us">关于我们</string>
+    <string name="my">"我的"</string>
+    <string name="song">"推歌"</string>
+    <string name="article">"碎念"</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="kown">知道了</string>
+    <string name="the_last_page">最后一页到了！</string>
+    <string name="ok">确定</string>
+</resources>

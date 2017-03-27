@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/shouye"
+
+            android:title="@string/home_page" />
+        <item
+
+            android:id="@+id/nav_community"
+            android:icon="@mipmap/shequ_4"
+            android:title="@string/community" />
+
+    </group>
+    <group android:checkableBehavior="single">
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_instructions"
+                android:icon="@mipmap/yijianfankui"
+                android:title="@string/instructions" />
+
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@mipmap/guanyu_4"
+                android:title="@string/about_us" />
+
+        </menu>
+    </item>
+
+    </group>
+</menu>
